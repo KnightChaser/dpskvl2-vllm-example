@@ -1,6 +1,6 @@
 # `dpskvl2-vllm-example`
 
-> An example code that runs DeepSeek VL2 visual model via vLLM inference framework.
+> An example code that runs DeepSeek VL2 visual model via vLLM inference framework. There was nothing I was able to refer to, so I made it on my own.
 
 ## Installation
 
@@ -19,3 +19,9 @@ uv pip install timm
 ```
 
 ...and run the code again.
+
+3. Ask a question with a picture that you want like below.
+```shell
+python3 deepseek_vl2_tiny_vllm_demo.py --image ./example/example_diagram.png --question
+"Describe the visual elements of this image exactly as they appear, and then interpret what are the given image(diagram) is meaning."
+```
